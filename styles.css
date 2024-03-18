@@ -25,8 +25,8 @@ ul {
 }
 
 body {
-    padding-top: 0.5em;
-    padding-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
 }
 
 ol,
@@ -63,7 +63,7 @@ img {
 .orange-box > h1 {
 	font-weight: 900;
 	line-height: 1.5em;
-    font-size: 2em;
+	font-size: 2em;
 }
 
 .orange-box > p {
@@ -72,52 +72,78 @@ img {
 
 .phone-number {
 	color: #fff;
-    font-weight: 400;
+	font-weight: 400;
 }
 
-h2{
-    margin: 0 auto;
-    padding: 1em;
-    font-weight:400;
+h2 {
+	margin: 0 auto;
+	padding: 1em;
+	font-weight: 400;
 }
 
-hr{
-    border-color: black;
-    height: 2px;
-    margin: 1em 0;
-    opacity: 0.2;
+hr {
+	border-color: black;
+	height: 2px;
+	margin: 1em 0;
+	opacity: 0.2;
 }
 
-article{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1em;
+article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1em;
 }
 
-article img{
-    width: 50%;
-    margin: 0 auto;
+article img {
+	width: 50%;
+	margin: 0 auto;
 }
 
-article p{
-    text-align: center;
-    padding: 1em;
+article p {
+	text-align: center;
+	padding: 1em;
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: rgb(236, 236, 236);
-    padding: 1em 1em 2em 1em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: rgb(236, 236, 236);
+	padding: 1em 1em 2em 1em;
 }
 
-footer p, a{
-    margin-top: 1em;
-    font-weight: 600;
+footer p,
+a {
+	margin-top: 1em;
+	font-weight: 600;
 }
 
-footer a{
-    color:#000;
+footer a {
+	color: #000;
+}
+
+@media (min-width: 1024px) {
+	.container {
+		max-width: 900px;
+	}
+
+	.hero-section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		/* display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 2em; */
+	}
+
+	.orange-box-container {
+		display: flex;
+		padding: 0 3em;
+	}
+
+	.orange-box {
+		align-self: center;
+	}
 }
