@@ -21,7 +21,11 @@ ol,
 ul {
 	margin: 0;
 	padding: 0;
-	font-family: "Nanum Myeongjo", serif;
+	font-family: "Aleo", serif;
+}
+
+body {
+    padding-top: 0.5em;
 }
 
 ol,
@@ -58,12 +62,45 @@ img {
 .orange-box > h1 {
 	font-weight: 900;
 	line-height: 1.5em;
+    font-size: 2em;
 }
 
 .orange-box > p {
-	font-weight: 900;
+	font-weight: 600;
 }
 
 .phone-number {
 	color: #fff;
+    font-weight: 400;
+}
+
+h2{
+    margin: 0 auto;
+    padding: 1em;
+    font-weight:400;
+}
+
+hr{
+    border-color: black;
+    height: 2px;
+    margin: 1em 0;
+    opacity: 0.2;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+article img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+article p{
+    text-align: center;
+    padding: 1em;
 }
