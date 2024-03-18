@@ -1,12 +1,12 @@
 html {
-    box-sizing: border-box;
-    font-size: 16px;
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body,
@@ -19,34 +19,51 @@ h6,
 p,
 ol,
 ul {
-    margin: 0;
-    padding: 0;
-    font-family: "Nanum Myeongjo", serif;
+	margin: 0;
+	padding: 0;
+	font-family: "Nanum Myeongjo", serif;
 }
 
 ol,
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
-
-
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 370px;
+	display: grid;
+	grid-template-columns: 1fr;
+	max-width: 370px;
+	margin: 0 auto;
 }
 
 .logo {
-    font-size: 1.25em;
-    font-weight: bolder;
+	font-size: 1.25em;
+	font-weight: bolder;
 }
 
 .hero-image {
-    width: 100%;
+	width: 100%;
+}
+
+.orange-box {
+	background: rgb(234, 126, 23);
+	padding: 0.8em;
+}
+
+.orange-box > h1 {
+	font-weight: 900;
+	line-height: 1.5em;
+}
+
+.orange-box > p {
+	font-weight: 900;
+}
+
+.phone-number {
+	color: #fff;
 }
