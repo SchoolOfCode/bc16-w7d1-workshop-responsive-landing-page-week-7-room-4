@@ -123,6 +123,10 @@ footer a {
 	color: #000;
 }
 
+.hidden-hr{
+    display: none
+}
+
 @media (min-width: 1024px) {
 	.container {
 		max-width: 900px;
@@ -146,4 +150,14 @@ footer a {
 	.orange-box {
 		align-self: center;
 	}
+    .article-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    hr{
+        display: none;
+    }
+    .hidden-hr{
+        display: block;
+    }
 }
