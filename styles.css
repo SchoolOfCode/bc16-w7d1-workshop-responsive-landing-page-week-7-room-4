@@ -26,6 +26,7 @@ ul {
 
 body {
     padding-top: 0.5em;
+    padding-bottom: 1em;
 }
 
 ol,
@@ -103,4 +104,20 @@ article img{
 article p{
     text-align: center;
     padding: 1em;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(236, 236, 236);
+    padding: 1em 1em 2em 1em;
+}
+
+footer p, a{
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+footer a{
+    color:#000;
 }
